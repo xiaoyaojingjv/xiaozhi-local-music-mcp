@@ -30,6 +30,7 @@
 | `list_local_songs`          | 列出歌曲   | "有哪些歌曲？"     |
 | `scan_local_music_folder`   | 扫描音乐目录 | "扫描我的音乐"     |
 | `set_windows_system_volume` | 设置系统音量 | "把音量调到 50"  |
+
 为避免与自带音乐mcp冲突，可以强调本地电脑
 
 ## 项目结构
