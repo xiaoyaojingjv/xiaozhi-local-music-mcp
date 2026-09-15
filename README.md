@@ -14,22 +14,23 @@
 
 ## MCP Tools
 
-| Tool                        | 功能     |
-| --------------------------- | ------ |
-| `play_song`                 | 播放歌曲   |
-| `play_folder`               | 播放文件夹  |
-| `random_play`               | 随机播放   |
-| `stop_random_play`          | 停止随机播放 |
-| `play_random_song`          | 随机播放一首 |
-| `pause_music`               | 暂停     |
-| `resume_music`              | 恢复     |
-| `stop_music`                | 停止     |
-| `play_next_song`            | 下一首    |
-| `play_previous_song`        | 上一首    |
-| `get_current_music_info`    | 获取播放信息 |
-| `list_local_songs`          | 列出歌曲   |
-| `scan_local_music_folder`   | 扫描音乐目录 |
-| `set_windows_system_volume` | 设置系统音量 |
+| Tool                        | 功能     | 示例         |
+| --------------------------- | ------ | ---------- |
+| `play_song`                 | 播放歌曲   | "播放《一路生花》"   |
+| `play_folder`               | 播放文件夹  | "播放我的音乐文件夹"  |
+| `random_play`               | 随机播放   | "随机播放 10 首歌" |
+| `stop_random_play`          | 停止随机播放 | "停止随机播放"     |
+| `play_random_song`          | 随机播放一首 | "随机放一首歌"     |
+| `pause_music`               | 暂停     | "暂停音乐"       |
+| `resume_music`              | 恢复     | "继续播放"       |
+| `stop_music`                | 停止     | "停止音乐"       |
+| `play_next_song`            | 下一首    | "播放下一首"      |
+| `play_previous_song`        | 上一首    | "播放上一首"      |
+| `get_current_music_info`    | 获取播放信息 | "现在播放的是什么歌？" |
+| `list_local_songs`          | 列出歌曲   | "有哪些歌曲？"     |
+| `scan_local_music_folder`   | 扫描音乐目录 | "扫描我的音乐"     |
+| `set_windows_system_volume` | 设置系统音量 | "把音量调到 50"  |
+为避免与自带音乐mcp冲突，可以强调本地电脑
 
 ## 项目结构
 
@@ -53,7 +54,8 @@ pip install -r requirements.txt
 ```
 
 默认音乐目录：
-在`music_player.py`文件的开头设置
+
+修改`DEFAULT_MUSIC_DIRECTORY`为你本地电脑的音乐目录
 ```text
 DEFAULT_MUSIC_DIRECTORY = r"<YOUR_MUSIC_DIRECTORY>"
 ```
